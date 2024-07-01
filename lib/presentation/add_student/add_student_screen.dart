@@ -101,7 +101,7 @@ class AddStudentScreen extends StatelessWidget {
                     decoration: decoration(label: 'School Name'),
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return 'Enter The school Name';
+                        return 'Enter The School Name';
                       } else {
                         return null;
                       }
